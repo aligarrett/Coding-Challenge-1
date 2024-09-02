@@ -22,6 +22,7 @@ const productDetails = {
 console.log(products, productDetails);
 
 
+
 // Task 3: Assignment Operators
 let accountBalance = 7292000;
 accountBalance += 5000;
@@ -38,3 +39,17 @@ console.log("After dividing 5500, the account balance is:"+ accountBalance);
 
 accountBalance %= 1500;
 console.log("The remainder when the balance is divided by 1500 is:"+ accountBalance);
+
+
+
+// Task 4: Comparison Operators
+const employeeScore1 = 69;
+const employeeScore2 = 96;
+console.log("employeeScore1 > employeeScore2:", employeeScore1 > employeeScore2);
+console.log("employeeScore1 < employeeScore2:", employeeScore1 < employeeScore2);
+console.log("employeeScore1 >= employeeScore2:", employeeScore1 >= employeeScore2);
+console.log("employeeScore1 <= employeeScore2:", employeeScore1 <= employeeScore2);
+console.log("employeeScore1 === employeeScore2:", employeeScore1 === employeeScore2);
+console.log("employeeScore1 !== employeeScore2:", employeeScore1 !== employeeScore2);
+
+
