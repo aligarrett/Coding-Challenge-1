@@ -33,13 +33,13 @@ accountBalance -= 10000;
 console.log("After subtracting 10000, the account balance is: "+ accountBalance);
 
 accountBalance *= 20;
-console.log("After multiplying by 2000, the account balance is:"+ accountBalance);
+console.log("After multiplying by 20, the account balance is:"+ accountBalance);
 
 accountBalance /= 2;
-console.log("After dividing 5500, the account balance is:"+ accountBalance);
+console.log("After dividing by 2, the account balance is:"+ accountBalance);
 
 accountBalance %= 20;
-console.log("The remainder when the balance is divided by 1500 is:"+ accountBalance);
+console.log("The remainder when the balance is divided by 20 is:"+ accountBalance);
 
 
 
