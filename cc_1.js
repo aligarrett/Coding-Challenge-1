@@ -27,10 +27,10 @@ console.log(products, productDetails);
 
 let accountBalance = 77500;
 accountBalance += 5000;
-console.log("After adding 5000, the account balance is: " + accountBalance);
+console.log("After adding 5000, the account balance is:"+ accountBalance);
 
 accountBalance -= 10000;
-console.log("After subtracting 10000, the account balance is: " + accountBalance);
+console.log("After subtracting 10000, the account balance is:"+ accountBalance);
 
 accountBalance *= 20;
 console.log("After multiplying by 20, the account balance is:" + accountBalance);
