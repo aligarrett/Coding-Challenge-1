@@ -24,25 +24,27 @@ console.log(products, productDetails);
 
 
 // Task 3: Assignment Operators
-let accountBalance = 7292000;
+
+let accountBalance = 77500;
 accountBalance += 5000;
 console.log("After adding 5000, the account balance is: "+ accountBalance);
 
 accountBalance -= 10000;
 console.log("After subtracting 10000, the account balance is: "+ accountBalance);
 
-accountBalance *= 2000;
+accountBalance *= 20;
 console.log("After multiplying by 2000, the account balance is:"+ accountBalance);
 
-accountBalance /= 5500;
+accountBalance /= 2;
 console.log("After dividing 5500, the account balance is:"+ accountBalance);
 
-accountBalance %= 1500;
+accountBalance %= 20;
 console.log("The remainder when the balance is divided by 1500 is:"+ accountBalance);
 
 
 
 // Task 4: Comparison Operators
+
 const employeeScore1 = 69;
 const employeeScore2 = 96;
 console.log("employeeScore1 > employeeScore2:", employeeScore1 > employeeScore2);
@@ -52,4 +54,19 @@ console.log("employeeScore1 <= employeeScore2:", employeeScore1 <= employeeScore
 console.log("employeeScore1 === employeeScore2:", employeeScore1 === employeeScore2);
 console.log("employeeScore1 !== employeeScore2:", employeeScore1 !== employeeScore2);
 
+
+
+// Task 5: Logical Operators
+
+let hasKeyCard = true;
+let hasPermission = false;
+
+let canAccessAreaA = hasKeyCard && hasPermission;
+console.log("Can access Area A:", canAccessAreaA);
+
+let canAccessAreaB = hasKeyCard || hasPermission;
+console.log("Can access Area B:", canAccessAreaB);
+
+let isRestrictedArea = !hasKeyCard;
+console.log("Is restricted area (keycard holders denied):", isRestrictedArea);
 
