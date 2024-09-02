@@ -10,3 +10,13 @@ console.log(isActive, typeof(isActive));
 
 
 
+// Task 2: Compound Data Types
+
+let products = ["Microwave", "Toaster", "Kettle"];
+const productDetails = {
+    inStock: 1234,
+    name: products,
+    price: 5000.00,   
+}
+
+console.log(products, productDetails);
